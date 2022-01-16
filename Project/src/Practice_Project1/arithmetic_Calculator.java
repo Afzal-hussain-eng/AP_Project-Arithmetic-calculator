@@ -15,7 +15,7 @@ public class arithmetic_Calculator {
 			int firstNumber = sc.nextInt();
 			System.out.println("Enter second number");
 			int secondNumber = sc.nextInt();
-			System.out.println("What do you want perform");
+			System.out.println("What do you want perform( Add (+) , Sub(-) , Mul(*) , Div(/) ) .");
 			char choice = sc.next().charAt(0);
 			switch(choice)
 			{
